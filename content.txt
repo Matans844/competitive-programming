@@ -1,0 +1,10 @@
+This solution contains solutions to problems presented in the competitive programming course, given at the Interdiscplinary Center (IDC), Herzliya.
+Solutions are pulled from the course moodle page.
+
+Motivation:
+Providing a concentrated view of solutions to presented problems. This is helpful in finding comonly used techniques.
+
+Structure:
+Problems are divided by two levels:
+1. Topic: Each topic, we learn a new subject.
+2. Problem location: Problems are presented during a lesson, or during a tournament. A 3rd option was added: Practice. Here you can put your own files.
