@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>25b314da-826b-45c3-90e2-98b395f19fa7</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>tacostand.py</StartupFile>
+    <ProjectGuid>69d37412-89ee-477f-811e-7ac41462c616</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>tacostand_python.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>tacostand_python</Name>
-    <RootNamespace>tacostand</RootNamespace>
+    <RootNamespace>tacostand_python</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="tacostand.py" />
+    <Compile Include="tacostand_python.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paintersdilemma_cpp", "paintersdilemma\paintersdilemma.vcxproj", "{C6EF6F07-1066-410E-87EF-772768680B85}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "paintersdilemma_cpp", "paintersdilemma_cpp\paintersdilemma.vcxproj", "{C6EF6F07-1066-410E-87EF-772768680B85}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Topic-01_no-prerequisites", "Topic-01_no-prerequisites", "{27331CFB-82CD-4A1C-B896-85B533349800}"
 EndProject
@@ -21,17 +21,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "practice", "practice", "{A8
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tournament", "tournament", "{E2396585-883C-452D-8BE0-299D31C95AC4}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dogwalking_cpp", "dogwalking\dogwalking.vcxproj", "{CEC02055-7747-4A0C-816C-17E16A32B450}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dogwalking_cpp", "dogwalking_cpp\dogwalking.vcxproj", "{CEC02055-7747-4A0C-816C-17E16A32B450}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "prisonsort_cpp", "prisonsort\prisonsort.vcxproj", "{231E9DE1-DB89-4016-A8D2-C21BC2E562BA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "prisonsort_cpp", "prisonsort_cpp\prisonsort.vcxproj", "{231E9DE1-DB89-4016-A8D2-C21BC2E562BA}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lemonssort_cpp", "lemonssort\lemonssort.vcxproj", "{533CCAF2-7127-48EC-AD24-838997317885}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lemonssort_cpp", "lemonssort_cpp\lemonssort.vcxproj", "{533CCAF2-7127-48EC-AD24-838997317885}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "molecules_cpp", "moleculescpp\moleculescpp.vcxproj", "{95BBFD45-1F9B-4A41-AF74-8471A1868645}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "molecules_cpp", "molecules_cpp\moleculescpp.vcxproj", "{95BBFD45-1F9B-4A41-AF74-8471A1868645}"
 EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "tacostand_python", "tacostand\tacostand_python.pyproj", "{25B314DA-826B-45C3-90E2-98B395F19FA7}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "molecules_c", "molecules_in_c\molecules_in_c.vcxproj", "{784DFCA8-08E0-4B81-8705-D1A33813488D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "molecules_c", "molecules_c\molecules_in_c.vcxproj", "{784DFCA8-08E0-4B81-8705-D1A33813488D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minimumpermutation_cpp", "minimumpermutation_cpp\minimumpermutation_cpp.vcxproj", "{01712216-365F-4380-9F7D-07CB8C3BA808}"
 EndProject
@@ -61,6 +59,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		content.txt = content.txt
 	EndProjectSection
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "tacostand_python", "tacostand_python\tacostand_python.pyproj", "{69D37412-89EE-477F-811E-7AC41462C616}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -122,12 +122,6 @@ Global
 		{95BBFD45-1F9B-4A41-AF74-8471A1868645}.Release|x64.Build.0 = Release|x64
 		{95BBFD45-1F9B-4A41-AF74-8471A1868645}.Release|x86.ActiveCfg = Release|Win32
 		{95BBFD45-1F9B-4A41-AF74-8471A1868645}.Release|x86.Build.0 = Release|Win32
-		{25B314DA-826B-45C3-90E2-98B395F19FA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25B314DA-826B-45C3-90E2-98B395F19FA7}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{25B314DA-826B-45C3-90E2-98B395F19FA7}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{25B314DA-826B-45C3-90E2-98B395F19FA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25B314DA-826B-45C3-90E2-98B395F19FA7}.Release|x64.ActiveCfg = Release|Any CPU
-		{25B314DA-826B-45C3-90E2-98B395F19FA7}.Release|x86.ActiveCfg = Release|Any CPU
 		{784DFCA8-08E0-4B81-8705-D1A33813488D}.Debug|Any CPU.ActiveCfg = Debug|Win32
 		{784DFCA8-08E0-4B81-8705-D1A33813488D}.Debug|x64.ActiveCfg = Debug|x64
 		{784DFCA8-08E0-4B81-8705-D1A33813488D}.Debug|x64.Build.0 = Debug|x64
@@ -174,6 +168,12 @@ Global
 		{96851425-4A50-4F73-B481-B7B0E5EEDAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96851425-4A50-4F73-B481-B7B0E5EEDAAB}.Release|x64.ActiveCfg = Release|Any CPU
 		{96851425-4A50-4F73-B481-B7B0E5EEDAAB}.Release|x86.ActiveCfg = Release|Any CPU
+		{69D37412-89EE-477F-811E-7AC41462C616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D37412-89EE-477F-811E-7AC41462C616}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{69D37412-89EE-477F-811E-7AC41462C616}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{69D37412-89EE-477F-811E-7AC41462C616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D37412-89EE-477F-811E-7AC41462C616}.Release|x64.ActiveCfg = Release|Any CPU
+		{69D37412-89EE-477F-811E-7AC41462C616}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -190,7 +190,6 @@ Global
 		{231E9DE1-DB89-4016-A8D2-C21BC2E562BA} = {E2396585-883C-452D-8BE0-299D31C95AC4}
 		{533CCAF2-7127-48EC-AD24-838997317885} = {E2396585-883C-452D-8BE0-299D31C95AC4}
 		{95BBFD45-1F9B-4A41-AF74-8471A1868645} = {A663C20C-E0B6-40CF-9769-888863E82217}
-		{25B314DA-826B-45C3-90E2-98B395F19FA7} = {8E71E93F-49D6-4D2E-B3B0-17ABD36821F3}
 		{784DFCA8-08E0-4B81-8705-D1A33813488D} = {A663C20C-E0B6-40CF-9769-888863E82217}
 		{01712216-365F-4380-9F7D-07CB8C3BA808} = {E2396585-883C-452D-8BE0-299D31C95AC4}
 		{F442DA33-5FCE-45C9-BB11-9CA14EF66616} = {FBC4EC4E-659E-41FB-88F9-D6EDE868E3E7}
@@ -202,6 +201,7 @@ Global
 		{18BF82D4-5A2D-4EA3-A8D6-594946B9732E} = {F442DA33-5FCE-45C9-BB11-9CA14EF66616}
 		{61CD4C21-8299-4FE7-83DE-CEC31114D380} = {F442DA33-5FCE-45C9-BB11-9CA14EF66616}
 		{96851425-4A50-4F73-B481-B7B0E5EEDAAB} = {8E71E93F-49D6-4D2E-B3B0-17ABD36821F3}
+		{69D37412-89EE-477F-811E-7AC41462C616} = {8E71E93F-49D6-4D2E-B3B0-17ABD36821F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4930EF74-AC38-4AF4-BC18-1083B7FC13FE}
